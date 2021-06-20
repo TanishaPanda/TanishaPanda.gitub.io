@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+  }
+  
+  
+  #main{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(8, 1, 39);
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-right: 60%;
+  }
+  
+  .logo img{
+    width:200px;
+    height: 50px;
+    margin-left: 12px;
+  }
+  
+  .menu{
+    list-style: none;
+    display: flex;
+    margin-left: 60%;
+  }
+  
+  
+  .menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: medium;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+  
+   
+  a{
+    text-decoration: none;
+  }
+
+  .menu li a:hover{
+    color: #e99d25;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  .my-info{
+    justify-content: space-around;
+    padding: 0;
+    text-align: center!important;
+    margin-bottom: 1rem;
+    font-family: 'Roboto', cursive;
+    font-weight: 400;
+    line-height: 1.2px;
+  }
+  
+  .btn{
+    font-family: 'Roboto', cursive;
+    background-color: #e99d25;
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid indigo;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  }
+  
+  .btn:hover{
+    background-color: #e99d25;
+  }
+  
+  .table{
+    border-collapse: collapse;
+      margin: 20px auto 0 auto;
+      font-size: 0.9em;
+      min-width: 400px;
+      border-radius: 5px 5px 0 0;
+      overflow: hidden;
+      padding: 30px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  }
+  
+  .table thead tr{
+    background-color: #e99d25;
+      color: white;
+      text-align: left;
+      font-weight: bold;
+  }
+  
+  .table th,
+  .table td{
+    padding: 5px 70px;
+  }
+  
+  .table tbody tr{
+    border-bottom: 1px solid rgb(241, 253, 132);
+  }
+  
+  .table tbody tr:nth-of-type(odd){
+    background-color: #e99d25;
+  }
+  
+  .table tr:nth-of-type(even){
+    background-color: lightgrey;
+  }
+  
+  tr{
+    cursor: pointer;
+  }
+  
+  .table tbody tr:hover{
+    background-color: #e99d25;
+  }

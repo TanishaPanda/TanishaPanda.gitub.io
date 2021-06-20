@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+  }
+  
+  
+  #main{
+    width: 100%;
+    height: 20vh;
+    position: relative;
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(8, 1, 39);
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-right: 60%;
+  }
+  
+  
+  .logo img{
+    width:200px;
+    height: 50px;
+    margin-left: 12px;
+  }
+  
+  .menu{
+    list-style: none;
+    display: flex;
+    margin-left: 60%;
+  }
+  
+  .menu li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: medium;
+    letter-spacing: 1px;
+    color: #ffffff;
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  
+  .image img{
+    width: 450px;
+    height: 600px;
+    margin-left: 4px;
+  }
+  
+  .main-content{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 4px;
+  }
+  
+  .line{
+    position: relative;
+    font-family: 'Roboto', cursive;
+    color: rgb(8 , 1, 39);
+    font-size: 20px;
+    margin-left: 5%;
+  }
+  
+  .heading{
+    font-family: 'Raleway', cursive;
+    color: rgb(8 , 1, 39);
+    font-size: 50px;
+    margin-left: 5%;
+  }
+  
+  .start{
+    position: relative;
+    top:-50px;
+    margin-left: 40%;
+    font-family: 'Roboto', cursive;
+    background-color: rgb(8 , 1, 39);
+    color: rgb(247, 249, 253);
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+
+  }
+  
+  .start:hover{
+    background-color: rgb(8 , 1, 39);
+    color: #e99d25;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  .menu li a:hover{
+    color: #e99d25;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  .line2{
+    display: flex;
+    font-family: 'Roboto', cursive;
+    color: rgb(8 , 1, 39);
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 5%;
+  }
+  .line3{
+    display: flex;
+    font-family: 'Roboto', cursive;
+    color: rgb(8 , 1, 39);
+    font-size: 15px;
+    font-style: medium;
+    margin-left: 5%;
+  }
+ 
